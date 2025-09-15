@@ -13,7 +13,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #f66;
+  color: #ff6b82;
   margin-bottom: 18px;
   font-size: 1.4em;
 }
@@ -31,7 +31,7 @@ h1 {
 
 .offer-card.selected,
 .offer-card:has(input:checked) {
-  border: 2px solid #f66;
+  border: 2px solid #ff6b82;
   background: #fffafa;
 }
 
@@ -50,20 +50,20 @@ h1 {
 }
 
 .pink {
-  background: #f99;
+  background: #ff6b82;
 }
 .red {
-  background: #f33;
+  background: #ff6b82;
 }
 .purple {
-  background: #b66;
+  background: #ff6b82;
 }
 
 .most-popular {
   position: absolute;
   top: -12px;
   right: 16px;
-  background: #f66;
+  background: #ff6b82;
   color: #fff;
   font-size: 0.7em;
   padding: 3px 8px;
@@ -110,7 +110,7 @@ h1 {
 }
 
 .free-delivery {
-  color: #ef5b95;
+  color: #ff6b82;
   font-weight: 600;
 }
 
@@ -120,7 +120,7 @@ h1 {
 }
 
 .add-cart {
-  background: #ff99aa;
+  background: #ff6b82;
   color: #fff;
   border: none;
   padding: 12px 0;
@@ -134,7 +134,7 @@ h1 {
 }
 
 .add-cart:hover {
-  background: #e74585;
+  background: #ff6b82;
 }
 
 .powered {
