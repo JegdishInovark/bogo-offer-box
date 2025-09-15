@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer Box</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>YAY! It's BOGO</h1>
+      <form id="offerForm">
+        <!-- 1 Unit Option -->
+        <div class="offer-card selected" data-unit="1">
+          <div class="radio-row">
+            <input type="radio" name="unit" id="unit1" checked />
+            <label for="unit1">1 Unit</label>
+            <span class="badge pink">10% Off</span>
+            <div class="price-row">
+              <span class="main-price">$10.00 USD</span>
+              <span class="strike-price">$24.00 USD</span>
+            </div>
+          </div>
+          <div class="options" style="display: block">
+            <div class="option-row">
+              <span>#1</span>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Green</option>
+              </select>
+            </div>
+          </div>
+          <p class="desc">Standard Price</p>
+        </div>
+
+        <!-- 2 Unit Option -->
+        <div class="offer-card" data-unit="2">
+          <div class="radio-row">
+            <input type="radio" name="unit" id="unit2" />
+            <label for="unit2">2 Unit</label>
+            <span class="badge red">20% Off</span>
+            <span class="most-popular">MOST POPULAR</span>
+            <div class="price-row">
+              <span class="main-price">$18.00 USD</span>
+              <span class="strike-price">$24.00 USD</span>
+            </div>
+          </div>
+          <div class="options" style="display: none">
+            <div class="option-row">
+              <span>#1</span>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Green</option>
+              </select>
+            </div>
+            <div class="option-row">
+              <span>#2</span>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Unit Option -->
+        <div class="offer-card" data-unit="3">
+          <div class="radio-row">
+            <input type="radio" name="unit" id="unit3" />
+            <label for="unit3">3 Unit</label>
+            <span class="badge purple">30% Off</span>
+            <div class="price-row">
+              <span class="main-price">$24.00 USD</span>
+              <span class="strike-price">$24.00 USD</span>
+            </div>
+          </div>
+          <div class="options" style="display: none">
+            <div class="option-row">
+              <span>#1</span>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Green</option>
+              </select>
+            </div>
+            <div class="option-row">
+              <span>#2</span>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Green</option>
+              </select>
+            </div>
+            <div class="option-row">
+              <span>#3</span>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="delivery-row">
+          <span class="free-delivery">Free Delivery</span>
+          <span class="total-price">Total : $10.00 USD</span>
+        </div>
+
+        <button type="submit" class="add-cart">+ Add to Cart</button>
+        <p class="powered">Powered by Pumper</p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

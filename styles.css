@@ -1,0 +1,151 @@
+body {
+  background: #222;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.main-container {
+  background: #fff;
+  margin: 24px auto;
+  width: 320px;
+  padding: 32px 24px;
+  border-radius: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #f66;
+  margin-bottom: 18px;
+  font-size: 1.4em;
+}
+
+.offer-card {
+  border: 2px solid #eee;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 16px 12px;
+  position: relative;
+  background: #fff;
+  transition: border 0.2s;
+  cursor: pointer;
+}
+
+.offer-card.selected,
+.offer-card:has(input:checked) {
+  border: 2px solid #f66;
+  background: #fffafa;
+}
+
+.radio-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge {
+  font-size: 0.85em;
+  padding: 4px 6px;
+  border-radius: 10px;
+  margin-left: 6px;
+  color: #fff;
+}
+
+.pink {
+  background: #f99;
+}
+.red {
+  background: #f33;
+}
+.purple {
+  background: #b66;
+}
+
+.most-popular {
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  background: #f66;
+  color: #fff;
+  font-size: 0.7em;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.price-row {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main-price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #222;
+}
+
+.strike-price {
+  color: #aaa;
+  text-decoration: line-through;
+  font-size: 0.95em;
+}
+
+.option-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+.options select {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.delivery-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.free-delivery {
+  color: #ef5b95;
+  font-weight: 600;
+}
+
+.total-price {
+  color: #222;
+  font-weight: 600;
+}
+
+.add-cart {
+  background: #ff99aa;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.08em;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 8px;
+  transition: background 0.18s;
+}
+
+.add-cart:hover {
+  background: #e74585;
+}
+
+.powered {
+  text-align: center;
+  font-size: 0.85em;
+  color: #bbb;
+}
+
+.desc {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-left: 24px;
+  margin-bottom: 0;
+}
