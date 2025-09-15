@@ -16,7 +16,7 @@ The interface features three offer boxes (1 Unit, 2 Unit, 3 Unit). Clicking any 
 ### Hosted Demo
 
 [**Live Page Link**](https://bogo-offer-box.vercel.app/)  
-[**Source Repository**](https://your-github-repo-link)
+[**Source Repository**](https://github.com/JegdishInovark/bogo-offer-box.git)
 
 
 ---
